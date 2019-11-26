@@ -1,0 +1,40 @@
+nav.menu-nav ul li.btn{
+	display: inline-block;
+	list-style-type: none;
+}
+nav.menu-nav ul li.btn a{
+	padding: 5px;
+	font-size: 20px;
+	color: yellow;
+	text-decoration: none;
+	background-color: #0097FB;
+}
+nav.menu-nav ul li.btn:hover a{
+	color: #0097FB;
+	background-color: yellow;
+	transition: 0.3s all;
+}
+div#content div{
+	display: inline-block;
+	width: 48%;
+}
+div#content div h1, p{
+	margin-left: 50px;
+}
+div#content div.annonce{
+	background-color: purple;
+	width: 100%;
+	margin: 10px;
+}
+div.annonce img{
+	border-radius: 50%;
+}
+div#content div.leftbox{
+	vertical-align: top;
+	background-color: yellow;
+
+}
+div#content div.rightbox{
+	background-color: red;
+
+}
